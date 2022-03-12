@@ -13,6 +13,7 @@
 		58C4967227DD070300DCA879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967027DD070300DCA879 /* Main.storyboard */; };
 		58C4967427DD070500DCA879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967327DD070500DCA879 /* Assets.xcassets */; };
 		58C4967727DD070500DCA879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967527DD070500DCA879 /* LaunchScreen.storyboard */; };
+		58C4967F27DD097A00DCA879 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4967E27DD097A00DCA879 /* BackgroundColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		58C4967327DD070500DCA879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C4967627DD070500DCA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C4967827DD070500DCA879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C4967E27DD097A00DCA879 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				58C4967327DD070500DCA879 /* Assets.xcassets */,
 				58C4967527DD070500DCA879 /* LaunchScreen.storyboard */,
 				58C4967827DD070500DCA879 /* Info.plist */,
+				58C4967E27DD097A00DCA879 /* BackgroundColor.swift */,
 			);
 			path = "LearningTask-5.5";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				58C4966F27DD070300DCA879 /* ViewController.swift in Sources */,
 				58C4966B27DD070300DCA879 /* AppDelegate.swift in Sources */,
 				58C4966D27DD070300DCA879 /* SceneDelegate.swift in Sources */,
+				58C4967F27DD097A00DCA879 /* BackgroundColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
