@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		58C4966B27DD070300DCA879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966A27DD070300DCA879 /* AppDelegate.swift */; };
 		58C4966D27DD070300DCA879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966C27DD070300DCA879 /* SceneDelegate.swift */; };
-		58C4966F27DD070300DCA879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966E27DD070300DCA879 /* ViewController.swift */; };
+		58C4966F27DD070300DCA879 /* DrinkGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4966E27DD070300DCA879 /* DrinkGameViewController.swift */; };
 		58C4967227DD070300DCA879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967027DD070300DCA879 /* Main.storyboard */; };
 		58C4967427DD070500DCA879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967327DD070500DCA879 /* Assets.xcassets */; };
 		58C4967727DD070500DCA879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4967527DD070500DCA879 /* LaunchScreen.storyboard */; };
 		58C4967F27DD097A00DCA879 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4967E27DD097A00DCA879 /* BackgroundColor.swift */; };
+		B77753BD292208A70048465F /* DrinkGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77753BC292208A70048465F /* DrinkGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58C4966727DD070300DCA879 /* LearningTask-5.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-5.5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C4966A27DD070300DCA879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58C4966C27DD070300DCA879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58C4966E27DD070300DCA879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58C4966E27DD070300DCA879 /* DrinkGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkGameViewController.swift; sourceTree = "<group>"; };
 		58C4967127DD070300DCA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58C4967327DD070500DCA879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C4967627DD070500DCA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C4967827DD070500DCA879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C4967E27DD097A00DCA879 /* BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		B77753BC292208A70048465F /* DrinkGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,49 @@
 		58C4966927DD070300DCA879 /* LearningTask-5.5 */ = {
 			isa = PBXGroup;
 			children = (
-				58C4966A27DD070300DCA879 /* AppDelegate.swift */,
-				58C4966C27DD070300DCA879 /* SceneDelegate.swift */,
-				58C4966E27DD070300DCA879 /* ViewController.swift */,
-				58C4967027DD070300DCA879 /* Main.storyboard */,
+				B77753BB2922087B0048465F /* Models */,
+				B77753BA292208740048465F /* Scenes */,
+				B77753B92922086B0048465F /* Views */,
+				B77753B82922084A0048465F /* Supportive Files */,
 				58C4967327DD070500DCA879 /* Assets.xcassets */,
-				58C4967527DD070500DCA879 /* LaunchScreen.storyboard */,
-				58C4967827DD070500DCA879 /* Info.plist */,
 				58C4967E27DD097A00DCA879 /* BackgroundColor.swift */,
 			);
 			path = "LearningTask-5.5";
+			sourceTree = "<group>";
+		};
+		B77753B82922084A0048465F /* Supportive Files */ = {
+			isa = PBXGroup;
+			children = (
+				58C4967527DD070500DCA879 /* LaunchScreen.storyboard */,
+				58C4966A27DD070300DCA879 /* AppDelegate.swift */,
+				58C4966C27DD070300DCA879 /* SceneDelegate.swift */,
+				58C4967827DD070500DCA879 /* Info.plist */,
+			);
+			name = "Supportive Files";
+			sourceTree = "<group>";
+		};
+		B77753B92922086B0048465F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58C4967027DD070300DCA879 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B77753BA292208740048465F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				58C4966E27DD070300DCA879 /* DrinkGameViewController.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		B77753BB2922087B0048465F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B77753BC292208A70048465F /* DrinkGame.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C4966F27DD070300DCA879 /* ViewController.swift in Sources */,
+				58C4966F27DD070300DCA879 /* DrinkGameViewController.swift in Sources */,
 				58C4966B27DD070300DCA879 /* AppDelegate.swift in Sources */,
 				58C4966D27DD070300DCA879 /* SceneDelegate.swift in Sources */,
+				B77753BD292208A70048465F /* DrinkGame.swift in Sources */,
 				58C4967F27DD097A00DCA879 /* BackgroundColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
